@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koyyada Pranathi | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="logo">Pranathi<span>.</span></div>
+      <button class="menu" onclick="toggleMenu()">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="tag">CSE STUDENT • DATA & TECHNOLOGY ENTHUSIAST</p>
+        <h1>Hi, I'm <span>Pranathi</span></h1>
+        <h2>Computer Science Engineering Student</h2>
+        <p class="intro">
+          I am pursuing Computer Science Engineering at Vignan Institute of
+          Technology and Science, with interests in Python, SQL and Data Analytics.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="#contact">Contact Me</a>
+          <a class="btn secondary" href="#skills">View Skills</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="avatar">KP</div>
+        <h3>Koyyada Pranathi</h3>
+        <p>Hyderabad, Telangana, India</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="section-label">ABOUT ME</p>
+      <h2>Building my skills for the future</h2>
+      <div class="about-grid">
+        <div>
+          <p>
+            I am a Computer Science Engineering student passionate about learning
+            technology and developing practical skills. My current profile
+            highlights Python, SQL and Data Analytics.
+          </p>
+          <p>
+            I am continuously improving my technical knowledge through
+            certifications and hands-on learning.
+          </p>
+        </div>
+        <div class="info-card">
+          <p><strong>Name</strong><br>Koyyada Pranathi</p>
+          <p><strong>Field</strong><br>Computer Science Engineering</p>
+          <p><strong>Location</strong><br>Hyderabad, Telangana, India</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <p class="section-label">MY SKILLS</p>
+      <h2>Technical Skills</h2>
+      <div class="cards">
+        <div class="card"><div class="icon">🐍</div><h3>Python</h3><p>Programming and problem-solving.</p></div>
+        <div class="card"><div class="icon">🗄️</div><h3>SQL</h3><p>Working with databases and queries.</p></div>
+        <div class="card"><div class="icon">📊</div><h3>Data Analytics</h3><p>Analyzing data to find useful insights.</p></div>
+        <div class="card"><div class="icon">🌐</div><h3>HTML5 & CSS3</h3><p>Creating structured and styled web pages.</p></div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <p class="section-label">CERTIFICATIONS</p>
+      <h2>Learning & Certifications</h2>
+      <div class="cert-list">
+        <div class="cert"><span>01</span><div><h3>The Joy Of Computing Using Python</h3><p>Python learning certification</p></div></div>
+        <div class="cert"><span>02</span><div><h3>HTML5 & CSS3</h3><p>Frontend web development certification</p></div></div>
+        <div class="cert"><span>03</span><div><h3>Getting Started with Artificial Intelligence</h3><p>Introduction to Artificial Intelligence</p></div></div>
+      </div>
+    </section>
+
+    <section id="education" class="section alt">
+      <p class="section-label">EDUCATION</p>
+      <h2>Academic Journey</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div>
+            <p class="year">2023 — PRESENT</p>
+            <h3>Vignan Institute of Technology and Science</h3>
+            <p>Computer Science Engineering</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="section-label">GET IN TOUCH</p>
+      <h2>Let's Connect</h2>
+      <p>I'm open to learning opportunities, projects and professional connections.</p>
+      <div class="contact-box">
+        <a href="mailto:koyyadapranathi@gmail.com">✉️ koyyadapranathi@gmail.com</a>
+        <a href="https://www.linkedin.com/in/pranathi-koyyada" target="_blank">in LinkedIn Profile</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Koyyada Pranathi. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
